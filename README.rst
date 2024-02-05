@@ -65,6 +65,7 @@ interface, Mezzanine provides the following:
 
 
 The Mezzanine admin dashboard:
+
 .. image:: https://github.com/HyperUpscale/mezzanineCMS/blob/0e25ef8db8bc1e0a2911e488ce87eb7dcde972e1/docs/img/mez-admin.PNG
 .. image:: https://github.com/HyperUpscale/mezzanineCMS/blob/29a18662543c01c3e8457893146ed037398c3a9b/docs/img/graph.png
 
