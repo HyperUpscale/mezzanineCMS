@@ -20,6 +20,30 @@ Its simple yet highly extensible architecture encourages hands-on code explorati
 
 Similar to tools like WordPress, Mezzanine offers an intuitive interface for managing various content types. However, unlike other platforms relying on numerous modules, Mezzanine delivers most functionality out of the box, resulting in a more integrated and efficient platform.
 
+==============
+ How I run it 
+==============
+On WSL with Ubuntu 20.04 and python3 (Python 3.8.10) 
+
+You can install it without 
+
+1: git clone https://github.com/HyperUpscale/mezzanineCMS.git && cd mezzanineCMS && pip install . && mezzanine-project newproject && cd newproject
+  
+2: python3 manage.py createdb
+   ---> it will ask you politely to create account and if you want install some initial demo pages
+
+3: python3 manage.py runserver
+
+
+Alternatively (I guess) it should also work N Windows 10 with Python 3.10:
+--------------------------------------------------------------------------
+0. On windows and you want with virtual Environment.
+   - python -m venv VirtualPythonEnv && VirtualPythonEnv\Scripts\activate 
+1. pip install mezzanine
+2. mezzanine-project myproject
+3. cd myproject && python manage.py createdb
+4. python manage.py runserver
+
 
 Features
 ========
