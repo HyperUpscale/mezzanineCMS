@@ -34,6 +34,9 @@ You can install it without
 
 3: python3 manage.py runserver
 
+You should see this:
+.. image::  https://github.com/HyperUpscale/mezzanineCMS/blob/36172b339872d40c4084258ac1974fabff6b63b5/docs/img/mez-installed.PNG
+
 
 Alternatively (I guess) it should also work N Windows 10 with Python 3.10:
 --------------------------------------------------------------------------
