@@ -15,22 +15,11 @@ Created by `Stephen McDonald <http://twitter.com/stephen_mcd>`_
 Overview
 ========
 
-Mezzanine is a powerful, consistent, and flexible content management
-platform. Built using the `Django`_ framework, Mezzanine provides a
-simple yet highly extensible architecture that encourages diving in
-and hacking on the code. Mezzanine is `BSD licensed`_ and supported by
-a diverse and active community.
+Mezzanine is a robust and flexible content management platform built on the Django framework.
+Its simple yet highly extensible architecture encourages hands-on code exploration. Mezzanine is BSD licensed and backed by an active community.
 
-In some ways, Mezzanine resembles tools such as `Wordpress`_,
-providing an intuitive interface for managing pages, blog posts, form
-data, store products, and other types of content. But Mezzanine is
-also different. Unlike many other platforms that make extensive use of
-modules or reusable applications, Mezzanine provides most of its
-functionality by default. This approach yields a more integrated and
-efficient platform.
+Similar to tools like WordPress, Mezzanine offers an intuitive interface for managing various content types. However, unlike other platforms relying on numerous modules, Mezzanine delivers most functionality out of the box, resulting in a more integrated and efficient platform.
 
-Visit the `Mezzanine project page`_ to see some of the `great sites
-people have built using Mezzanine`_.
 
 Features
 ========
@@ -69,12 +58,15 @@ interface, Mezzanine provides the following:
 * `Akismet`_ spam filtering
 * `JVM`_ compatible (via `Jython`_)
 
+
+
+
+.. image:: https://github.com/HyperUpscale/mezzanineCMS/blob/29a18662543c01c3e8457893146ed037398c3a9b/docs/img/mez1.PNG
+
+
 The Mezzanine admin dashboard:
-
-.. image:: http://mezzanine.jupo.org/docs/_images/mez.png
-.. image:: http://mezzanine.jupo.org/docs/_images/mez.png
 .. image:: https://github.com/HyperUpscale/mezzanineCMS/blob/0e25ef8db8bc1e0a2911e488ce87eb7dcde972e1/docs/img/mez-admin.PNG
-
+.. image:: https://github.com/HyperUpscale/mezzanineCMS/blob/29a18662543c01c3e8457893146ed037398c3a9b/docs/img/graph.png
 
 Donating
 ========
