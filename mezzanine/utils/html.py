@@ -1,6 +1,10 @@
 from html.entities import name2codepoint
 from html.parser import HTMLParser
+from bleach import ALLOWED_PROTOCOLS, clean
+from bleach.css_sanitizer import CSSSanitizer
 
+from mezzanine.conf import settings
+from mezzanine.core import defaults
 import re
 
 from mezzanine.utils.deprecation import mark_safe
@@ -85,7 +89,7 @@ def escape(html):
     ``RICHTEXT_FILTER_LEVEL``, ``RICHTEXT_ALLOWED_TAGS``,
     ``RICHTEXT_ALLOWED_ATTRIBUTES``, ``RICHTEXT_ALLOWED_STYLES``.
     """
-    from bleach import ALLOWED_PROTOCOLS, clean
+    from bleach import clean
     from bleach.css_sanitizer import CSSSanitizer
 
     from mezzanine.conf import settings
@@ -110,7 +114,7 @@ def escape(html):
         strip=True,
         strip_comments=False,
         css_sanitizer=css_sanitizer,
-        protocols=ALLOWED_PROTOCOLS + ["tel"],
+        protocols=frozenset(set(ALLOWED_PROTOCOLS).union(["tel"]))
     )
 
 
